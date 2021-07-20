@@ -368,15 +368,15 @@ footer{
     height: 80px;
   }
   .title{
-    font-size: 30px;
+    font-size: 20px;
   }
   h1{
-    font-size: 28px;
+    font-size: 22px;
     margin: 20px 0px 0px 0px;
   }
   nav li a{
-    font-size: 9px;
-    padding: 10px;
+    font-size: 8px;
+    padding: 10px 8px;
   }
   nav li:hover a{
     padding: 5px 8px 10px 8px;
