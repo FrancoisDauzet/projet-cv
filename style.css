@@ -376,7 +376,7 @@ footer{
   }
   nav li a{
     font-size: 8px;
-    padding: 10px 0px;
+    padding: 10px 10px;
     margin: 30px;
   }
   nav li:hover a{
