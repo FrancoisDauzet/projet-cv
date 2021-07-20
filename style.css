@@ -1,0 +1,406 @@
+/*
+body property
+menu property
+icon-menu property
+accueil property
+expériences property
+competences property
+projets property
+cv property
+contact property
+section property
+link property
+footer property
+responsive property
+*/
+
+
+/*body property______________________________________________________*/
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #282828;
+  color: #b4c8c8;
+  background-image: url(img/polyRed.png);
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+h1{
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+  color: #dff8f7;
+  text-shadow: 6px 6px 12px #181818;
+}
+
+h3{
+  color: #b4c8c8;
+}
+
+.img-pdf{
+  width: 100px;
+}
+
+.clickAnim {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: linear-gradient(to top, #2e29293f, #2e292981, #2e2929c0);
+  position: absolute;
+  z-index: 9000;
+  transform: scale(0);
+  transform-origin: center;
+  animation: clickAnim 1s ease-in-out;
+}
+
+@keyframes clickAnim {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(0.5);
+    opacity: 1;
+  }
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
+
+/*title property______________________________________________________*/
+
+.title{
+  font-size: 50px;
+  color: #ffffff;
+  text-shadow: 6px 6px 12px #181818;
+}
+
+header{
+  height: 118px;
+}
+
+
+/*menu nav property______________________________________________________*/
+
+
+nav{
+  width: 100%;
+  background-color: #2e2929;
+}
+
+nav ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+nav li{
+  list-style-type: none;
+  float: left;
+}
+
+nav a{
+  display: inline-block;
+  text-decoration: none;
+  padding: 16px 30px;
+  color: #b4c8c8;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.table{
+  display: table;
+  margin: 0 auto;
+}
+
+.menu-lock{
+  background-color: rgba(20, 20, 20, 0.8);
+}
+
+nav a:hover{
+  color: #dff8f7;
+}
+
+nav li:hover a{
+  padding: 12px 30px 16px 30px;
+}
+
+nav.scroll{
+  background-color: #2e292921;
+  transition: 3s ease-out;
+}
+
+
+/*icon-menu property______________________________________________________*/
+
+.icon-fb{
+  width: 30px;
+  padding: 0px 5px 0px 30px;
+  margin: 0px 0px 0px 0px;
+}
+
+.icon-in{
+  width: 30px;
+  padding: 0px 5px;
+  margin: 0px;
+}
+
+
+/*accueil property______________________________________________________*/
+
+.photo-profile{
+  border-radius: 45px;
+  width: 50%;
+  filter: opacity(90%);
+  border: solid 2px #d4122c86;
+  box-shadow: 6px 6px 12px #000000, -3px -3px 6px #d4122c;
+}
+
+.accueil{
+  border-top: 4px solid #d4122c;
+  background-color: rgba(18, 18, 18, 0.8);
+  padding-bottom: 20px;
+
+}
+
+.menu-acc:hover{
+  border-top: 4px solid #d4122c;
+  background-color: #181818;
+  transition: border-top 0.015s;
+}
+
+
+/*expériences property______________________________________________________*/
+
+.experiences{
+  border-top: 4px solid #d4122c;
+  background-color: rgba(18, 18, 18, 0.8);
+}
+
+.menu-exp:hover{
+  border-top: 4px solid #d4122c;
+  background-color: #181818;
+  transition: border-top 0.015s;
+}
+
+.leftexp{
+  width: 45%;
+  float: left;
+}
+
+.rightexp{
+  width: 50%;
+  float: left;
+  margin-left: 5%;
+}
+
+.leftexp img{
+  width: 40%;
+  max-width: 100%;
+}
+
+.img-exp{
+  padding-left: 10%;
+  padding-bottom: 40px;
+  filter: opacity(90%);
+}
+
+.img-exp:hover{
+  filter: opacity(100%);
+  filter: grayscale(10%);
+}
+
+.google-maps-exp{
+  margin: 2px 4px;
+  padding: 10px 2px;
+  width: 200%;
+}
+
+
+/*competences property______________________________________________________*/
+
+.competences{
+  border-top: 4px solid #d4122c;
+  background-color: rgba(18, 18, 18, 0.8);
+}
+
+.menu-com:hover{
+  border-top: 4px solid #d4122c;
+  background-color: #181818;
+  transition: border-top 0.015s;
+}
+
+
+/*projets property______________________________________________________*/
+
+.projets{
+  border-top: 4px solid #d4122c;
+  background-color: rgba(18, 18, 18, 0.8);
+}
+
+.menu-pro:hover{
+  border-top: 4px solid #d4122c;
+  background-color: #181818;
+  transition: border-top 0.015s;
+}
+
+.img-pro{
+  margin: 20px 5%;
+  filter: opacity(90%);
+}
+
+.left-pro{
+  width: 45%;
+  float: left;
+}
+
+.left-pro img{
+  width: 65%;
+  max-width: 100%;
+}
+
+.img-pro:hover{
+  filter: opacity(100%);
+  filter: grayscale(10%);
+}
+
+
+/*cv property______________________________________________________*/
+.cv{
+  border-top: 4px solid #d4122c;
+  background-color: rgba(18, 18, 18, 0.8);
+}
+
+.menu-cv:hover{
+  border-top: 4px solid #d4122c;
+  background-color: #181818;
+  transition: border-top 0.015s;
+}
+
+
+/*contact property______________________________________________________*/
+
+.contact{
+  border-top: 4px solid #d4122c;
+  background-color: rgba(18, 18, 18, 0.8);
+}
+
+.menu-con:hover{
+  border-top: 4px solid #d4122c;
+  background-color: #181818;
+  transition: border-top 0.015s;
+}
+
+.google-maps{
+  margin: 10px;
+  padding: 40px 0px;
+}
+
+
+/*section property______________________________________________________*/
+
+section{
+  width: 100%;
+  min-height: 300px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.sec{
+  margin: 0px 10%;
+}
+
+.left{
+  float: left;
+  width:30%;
+}
+
+.right{
+  float: left;
+  width: 70%;
+}
+
+.cleft, .cright, .sousleft, .sousright{
+  width: 50%;
+  float: left;
+}
+
+.sec::after, .exp::after, .reco::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*link property______________________________________________________*/
+
+.parcours .exp a, .competences .sec a, .accueil .sec a{
+  text-decoration: none;
+  color: #b4c8c8;
+}
+
+.parcours .exp a:hover, .competences .sec a:hover, .accueil .sec a:hover{
+  color: gray;
+}
+
+
+/*footer property______________________________________________________*/
+
+footer{
+  height: 80px;
+  width: 100%;
+  padding-top: 30px;
+  text-align: center;
+  background-color: #181818;
+  border-top: 2px solid rgb(255, 0, 0);
+  color: #7e8c8b;
+}
+
+
+/*responsive property______________________________________________________*/
+
+@media screen and (max-width: 820px){
+  header{
+    height: 50px;
+  }
+  .title{
+    font-size: 30px;
+  }
+  h1{
+    font-size: 28px;
+    margin: 20px 0px 0px 0px;
+  }
+  nav li a{
+    font-size: 9px;
+    padding: 10px;
+  }
+  nav li:hover a{
+    padding: 5px 10px 10px 10px;
+  }
+  progress{
+    width: 50%;
+  }
+  .sous h3{
+    font-size: 14px;   
+  }
+  .sousleft{
+    font-size: 11px; 
+  }
+  .icons-menu{
+    display: true;
+  }
+  .icon-fb, .icon-in{
+    width: 20px;
+    padding: 2px 0px;
+  }
+  .google-maps{
+    display: true;
+  }
+  .google-maps-exp{
+    display: true;
+  }
+}
