@@ -375,8 +375,8 @@ footer{
     margin: 20px 0px 0px 0px;
   }
   nav li a{
-    font-size: 8px;
-    padding: 10px 1px;
+    font-size: 7px;
+    padding: 10px 0px;
   }
   nav li:hover a{
     padding: 5px 8px 10px 8px;
