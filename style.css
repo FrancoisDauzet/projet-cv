@@ -163,14 +163,14 @@ nav.scroll{
 .accueil{
   border-top: 4px solid #d4122c;
   background-color: rgba(18, 18, 18, 0.8);
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 
 }
 
 .menu-acc:hover{
   border-top: 4px solid #d4122c;
   background-color: #181818;
-  transition: border-top 0.015s;
+  transition: border-top 0.025s;
 }
 
 
@@ -184,7 +184,7 @@ nav.scroll{
 .menu-exp:hover{
   border-top: 4px solid #d4122c;
   background-color: #181818;
-  transition: border-top 0.015s;
+  transition: border-top 0.025s;
 }
 
 .leftexp{
@@ -231,7 +231,7 @@ nav.scroll{
 .menu-com:hover{
   border-top: 4px solid #d4122c;
   background-color: #181818;
-  transition: border-top 0.015s;
+  transition: border-top 0.025s;
 }
 
 
@@ -245,7 +245,7 @@ nav.scroll{
 .menu-pro:hover{
   border-top: 4px solid #d4122c;
   background-color: #181818;
-  transition: border-top 0.015s;
+  transition: border-top 0.025s;
 }
 
 .img-pro{
@@ -278,7 +278,7 @@ nav.scroll{
 .menu-cv:hover{
   border-top: 4px solid #d4122c;
   background-color: #181818;
-  transition: border-top 0.015s;
+  transition: border-top 0.025s;
 }
 
 
@@ -292,7 +292,7 @@ nav.scroll{
 .menu-con:hover{
   border-top: 4px solid #d4122c;
   background-color: #181818;
-  transition: border-top 0.015s;
+  transition: border-top 0.025s;
 }
 
 .google-maps{
