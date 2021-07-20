@@ -368,10 +368,10 @@ footer{
     height: 60px;
   }
   .title{
-    font-size: 22px;
+    font-size: 18px;
   }
   h1{
-    font-size: 28px;
+    font-size: 20px;
     margin: 20px 0px 0px 0px;
   }
   nav li a{
@@ -382,7 +382,7 @@ footer{
     padding: 5px 10px 10px 10px;
   }
   progress{
-    width: 50%;
+    width: 40%;
   }
   .sous h3{
     font-size: 14px;   
