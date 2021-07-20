@@ -365,10 +365,10 @@ footer{
 
 @media screen and (max-width: 820px){
   header{
-    height: 50px;
+    height: 60px;
   }
   .title{
-    font-size: 30px;
+    font-size: 25px;
   }
   h1{
     font-size: 28px;
