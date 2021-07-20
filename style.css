@@ -368,19 +368,18 @@ footer{
     height: 50px;
   }
   .title{
-    font-size: 20px;
+    font-size: 30px;
   }
   h1{
-    font-size: 22px;
+    font-size: 28px;
     margin: 20px 0px 0px 0px;
   }
   nav li a{
-    font-size: 18px;
-    padding: 10px 20px;
-    margin: 500px;
+    font-size: 9px;
+    padding: 10px;
   }
   nav li:hover a{
-    padding: 5px 0px 10px 0px;
+    padding: 5px 10px 10px 10px;
   }
   progress{
     width: 50%;
@@ -396,7 +395,7 @@ footer{
   }
   .icon-fb, .icon-in{
     width: 20px;
-    padding: 0px 0px;
+    padding: 2px 0px;
   }
   .google-maps{
     display: true;
