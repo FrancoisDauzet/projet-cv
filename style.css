@@ -403,4 +403,7 @@ footer{
   .google-maps-exp{
     display: true;
   }
+  .competences{
+    font-size: 80%;
+  }
 }
